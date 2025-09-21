@@ -1,0 +1,28 @@
+{
+  "name": "arpan-vilash-vue",
+  "version": "1.0.0",
+  "description": "ARPAN VILASH - A HOME THAT YOU DESERVE - Vue 3 Project",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.0",
+    "@vue/runtime-core": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "vite": "^5.0.0"
+  },
+  "keywords": [
+    "vue3",
+    "real-estate",
+    "arpan-vilash",
+    "luxury-homes"
+  ],
+  "author": "ARPAN MEGA STRUCTURE",
+  "license": "MIT"
+}
