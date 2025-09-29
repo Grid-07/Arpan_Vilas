@@ -18,7 +18,7 @@
 
       <div class="location-info">
         <h3>Prime Location</h3>
-        <p class="location-address">Arpan Colony, Tetartoli Talab, Near RIMS, Ranchi</p>
+        <p class="location-address">Maghra, Bihar Sharif</p>
         <button class="btn btn--outline btn--3d" @click="showMapNotification">
           View on Map
         </button>
@@ -37,7 +37,7 @@ export default {
       {
         id: 1,
         icon: '🏢',
-        title: '108 Premium Flats',
+        title: '28 Premium Flats',
         description: 'Spacious 3BHK apartments designed for modern living'
       },
       {
@@ -49,14 +49,14 @@ export default {
       {
         id: 3,
         icon: '✅',
-        title: 'CNT Free',
-        description: 'Hassle-free ownership with clear title'
+        title: '10+ Premium Amenities',
+        description: 'Serene Walking Track, Swimming Pool, Clubhouse and more'
       },
       {
         id: 4,
         icon: '🌳',
-        title: '62% Open Space',
-        description: 'Abundant green spaces for a peaceful environment'
+        title: 'Luxury Living',
+        description: 'Ample Open Space'
       }
     ])
 

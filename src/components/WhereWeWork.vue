@@ -88,19 +88,19 @@
       <!-- Stats Section -->
       <div class="stats-section">
         <div class="stat-item">
-          <span class="stat-number">{{ animatedStats.happyCustomers }}</span>
+          <span class="stat-number">{{ animatedStats.happyCustomers }} +</span>
           <span class="stat-label">Happy Customers</span>
         </div>
         <div class="stat-item">
           <span class="stat-number">{{ animatedStats.greenEnvironment }}</span>
-          <span class="stat-label">% Green Environment</span>
+          <span class="stat-label">Upcomming Projects</span>
         </div>
         <div class="stat-item">
           <span class="stat-number">{{ totalLocations }}</span>
-          <span class="stat-label">Active Locations</span>
+          <span class="stat-label">Cities</span>
         </div>
         <div class="stat-item">
-          <span class="stat-number">{{ totalProjects }}</span>
+          <span class="stat-number">20 +</span>
           <span class="stat-label">Total Projects</span>
         </div>
       </div>
@@ -199,8 +199,8 @@ export default {
     };
     onMounted(() => {
       setTimeout(() => {
-        animateCounter(500, "happyCustomers");
-        animateCounter(85, "greenEnvironment");
+        animateCounter(500 , "happyCustomers");
+        animateCounter(5, "greenEnvironment");
       }, 500);
     });
     return { mapLocations, services, animatedStats, totalProjects, totalLocations, hoveredLocation, handlePinHover, getPinCoordinates };

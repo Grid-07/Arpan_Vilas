@@ -5,15 +5,15 @@
     <div class="hero-content">
       <div class="hero-text">
         <h1 class="hero-title">
-          <span class="title-main">ARPAN VILASH</span>
+          <span class="title-main">BIMLA MANGAL GARDENS</span>
           <span class="title-sub">A HOME THAT YOU DESERVE</span>
         </h1>
         <p class="hero-description">
-          Experience luxury living in 108 exquisitely designed 3BHK homes with 62% open space and premium amenities in the heart of Ranchi.
+          Experience luxury living in 108 exquisitely designed 3BHK homes with 62% open space and premium amenities and comercial space.
         </p>
         <div class="hero-buttons">
           <button class="btn btn--primary btn--3d btn--hero" @click="scrollToSection('floor-plans')">
-            <span>Explore Homes</span>
+            <span>Explore Floor Plans</span>
             <div class="btn-ripple"></div>
           </button>
           <button class="btn btn--secondary btn--3d btn--hero" @click="scrollToSection('contact')">
@@ -85,7 +85,7 @@ export default {
 
     onMounted(() => {
       setTimeout(() => {
-        animateCounter(108, 'flats')
+        animateCounter(28, 'flats')
         animateCounter(2, 'towers')
         animateCounter(62, 'openSpace')
       }, 1000)

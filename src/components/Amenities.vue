@@ -23,7 +23,7 @@ export default {
   name: 'Amenities',
   setup() {
     const amenities = ref([
-      { id: 1, icon: '🏛️', name: 'Temple' },
+      { id: 1, icon: '🏘️', name: 'Club House' },
       { id: 2, icon: '🏃‍♂️', name: 'Jogging Track' },
       { id: 3, icon: '🎠', name: 'Children Park' },
       { id: 4, icon: '💪', name: 'Gym & Yoga Center' },
@@ -33,7 +33,7 @@ export default {
       { id: 8, icon: '⚡', name: 'Power Backup' },
       { id: 9, icon: '🔥', name: 'Fire Safety' },
       { id: 10, icon: '🛗', name: 'Lift Facility' },
-      { id: 11, icon: '🚧', name: 'Boom Barrier' },
+      { id: 11, icon: '🏊‍♂️', name: 'Swimming Pool' },
       { id: 12, icon: '🌳', name: 'Beautiful Landscaping' }
     ])
 

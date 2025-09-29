@@ -10,13 +10,14 @@
         <div class="contact-info">
           <div class="contact-item">
             <h4>Developer</h4>
-            <p>ARPAN MEGA STRUCTURE</p>
+            <p>ABHA ENGICON PVT. LTD.
+</p>
           </div>
           <div class="contact-item">
             <h4>Office Address</h4>
-            <p>GE, AMBIKA ENCLAVE, SHIV BAGAN, MAKEY ROAD, NEAR RAJ BHAWAN, RANCHI</p>
+            <p>Flat 301 Shri Ganesh Arpan, Bihar Sharif - Ekangarsarai Road, Maghra, BiharSharif, Nalanda - 803101</p>
             <br>
-            <p>98/B1, EMRITY KUNJ, HARIHAR SINGH ROAD, MORABADI, RANCHI</p>
+            <p>GE, AMBIKA ENCLAVE, SHIV BAGAN, MAKEY ROAD, NEAR RAJ BHAWAN, RANCHI</p>
           </div>
           <div class="contact-item">
             <h4>Contact Numbers</h4>
