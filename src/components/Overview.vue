@@ -8,6 +8,29 @@
         </p>
       </div>
       
+      <!-- Project Images Gallery -->
+      <div class="project-gallery">
+        <div class="gallery-main">
+          <img 
+            src="/images/building-facade-detail.jpg" 
+            alt="Detailed facade view of Arpan Vilas showing premium architectural design and modern building materials"
+            class="gallery-main-image"
+          />
+        </div>
+        <div class="gallery-secondary">
+          <img 
+            src="/images/courtyard-passage.jpg" 
+            alt="Interior courtyard passage at Arpan Vilas showcasing beautiful landscaping and walkways"
+            class="gallery-secondary-image"
+          />
+          <img 
+            src="/images/street-view.jpg" 
+            alt="Street view of Arpan Vilas building showing prime location and accessibility in Bihar Sharif"
+            class="gallery-secondary-image"
+          />
+        </div>
+      </div>
+      
       <div class="overview-grid">
         <div class="overview-card" v-for="feature in features" :key="feature.id">
           <div class="card-icon">{{ feature.icon }}</div>
