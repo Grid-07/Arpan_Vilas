@@ -1216,43 +1216,70 @@ textarea.form-control {
 /* Enhanced Hero Mobile Styles */
 @media (max-width: 768px) {
   .hero {
-    min-height: 90vh;
-    padding-top: 60px;
+    min-height: auto;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   .hero-image-gallery {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 16px;
-    padding: 16px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-main-image {
+    width: 100%;
+    height: 300px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
   }
   
   .hero-secondary-images {
+    display: flex;
     flex-direction: row;
-    gap: 16px;
+    gap: 12px;
+    height: 150px;
   }
   
   .secondary-image {
+    flex: 1;
     height: 100%;
-    width: calc(50% - 8px);
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
   }
   
   .hero-content {
-    grid-template-columns: 1fr;
-    gap: 40px;
-    padding: 32px 16px;
+    position: relative;
+    z-index: 3;
     text-align: center;
-    margin-top: 20px;
+    color: var(--color-black);
+    width: 100%;
+    padding: 24px 20px;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    margin: 0 20px 20px 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
   }
   
   .title-main {
-    font-size: clamp(2.2rem, 8vw, 3.5rem);
+    font-size: clamp(2rem, 8vw, 3rem);
     line-height: 1.2;
+    margin-bottom: 12px;
   }
   
   .title-sub {
-    font-size: clamp(1rem, 4vw, 1.4rem);
-    letter-spacing: 1px;
+    font-size: clamp(1rem, 4vw, 1.2rem);
+    margin-bottom: 20px;
   }
   
   .hero-description {
@@ -1263,10 +1290,11 @@ textarea.form-control {
   }
   
   .hero-buttons {
+    display: flex;
     flex-direction: column;
     align-items: center;
     gap: 16px;
-    margin-bottom: 48px;
+    margin-bottom: 40px;
   }
   
   .btn--hero {
@@ -1278,50 +1306,95 @@ textarea.form-control {
   
   .hero-stats {
     display: flex;
-    justify-content: center;
-    gap: 24px;
+    justify-content: space-around;
+    gap: 16px;
     flex-wrap: wrap;
     max-width: 100%;
   }
   
   .stat-item {
-    padding: 16px 8px;
+    text-align: center;
+    padding: 12px 8px;
+    flex: 1;
+    min-width: 80px;
   }
   
   .stat-number {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--color-primary);
   }
   
   .stat-label {
     font-size: 12px;
+    color: var(--color-charcoal);
+    margin-top: 4px;
   }
 }
 
 /* Small Mobile Hero */
 @media (max-width: 480px) {
   .hero {
-    min-height: 85vh;
+    min-height: auto;
+    padding-top: 70px;
+  }
+  
+  .hero-image-gallery {
+    padding: 16px;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .hero-main-image {
+    height: 250px;
+  }
+  
+  .hero-secondary-images {
+    height: 120px;
+    gap: 8px;
   }
   
   .hero-content {
-    padding: 0 12px;
+    padding: 20px 16px;
+    margin: 0 16px 16px 16px;
+    border-radius: 16px;
   }
   
   .title-main {
     font-size: clamp(1.8rem, 10vw, 2.8rem);
+    margin-bottom: 8px;
   }
   
   .title-sub {
     font-size: clamp(0.9rem, 5vw, 1.2rem);
+    margin-bottom: 16px;
   }
   
   .hero-description {
     font-size: 14px;
+    margin-bottom: 24px;
+  }
+  
+  .hero-buttons {
+    gap: 12px;
+    margin-bottom: 32px;
   }
   
   .hero-stats {
-    grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 12px;
+  }
+  
+  .stat-item {
+    padding: 8px 4px;
+    min-width: 70px;
+  }
+  
+  .stat-number {
+    font-size: 1.5rem;
+  }
+  
+  .stat-label {
+    font-size: 11px;
   }
   
   .btn--hero {

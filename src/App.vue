@@ -1,40 +1,17 @@
 <template>
   <div id="app">
-    <Navigation />
-    <Hero />
-    <Overview />
-    <Projects />
-    <FloorPlans />
-    <Amenities />
-    <WhereWeWork />
-    <Contact />
-    <Footer />
+    <router-view />
+    <WhatsAppPopup />
   </div>
 </template>
 
 <script>
-import Navigation from './components/Navigation.vue'
-import Hero from './components/Hero.vue'
-import Overview from './components/Overview.vue'
-import Projects from './components/Projects.vue'
-import FloorPlans from './components/FloorPlans.vue'
-import Amenities from './components/Amenities.vue'
-import WhereWeWork from './components/WhereWeWork.vue'
-import Contact from './components/Contact.vue'
-import Footer from './components/Footer.vue'
+import WhatsAppPopup from './components/WhatsAppPopup.vue'
 
 export default {
   name: 'App',
   components: {
-    Navigation,
-    Hero,
-    Overview,
-    Projects,
-    FloorPlans,
-    Amenities,
-    WhereWeWork,
-    Contact,
-    Footer
+    WhatsAppPopup
   }
 }
 </script>

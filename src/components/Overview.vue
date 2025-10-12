@@ -4,7 +4,7 @@
       <div class="section-header">
         <h2 class="section-title">Project Overview</h2>
         <p class="section-subtitle">
-          ARPAN VILASH is a mantra of exclusivity, serenity and calm. These exquisite homes are open, perfectly planned fluid spaces designed to enhance the lives of those who inhabit them.
+          BIMLA MANGAL GARDENSH is a mantra of exclusivity, serenity and calm. These exquisite homes are open, perfectly planned fluid spaces designed to enhance the lives of those who inhabit them.
         </p>
       </div>
       
@@ -13,19 +13,19 @@
         <div class="gallery-main">
           <img 
             src="/images/building-facade-detail.jpg" 
-            alt="Detailed facade view of Arpan Vilas showing premium architectural design and modern building materials"
+            alt="Detailed facade view of BIMLA MANGAL GARDENS showing premium architectural design and modern building materials"
             class="gallery-main-image"
           />
         </div>
         <div class="gallery-secondary">
           <img 
             src="/images/courtyard-passage.jpg" 
-            alt="Interior courtyard passage at Arpan Vilas showcasing beautiful landscaping and walkways"
+            alt="Interior courtyard passage at BIMLA MANGAL GARDENS showcasing beautiful landscaping and walkways"
             class="gallery-secondary-image"
           />
           <img 
             src="/images/street-view.jpg" 
-            alt="Street view of Arpan Vilas building showing prime location and accessibility in Bihar Sharif"
+            alt="Street view of BIMLA MANGAL GARDENS building showing prime location and accessibility in Bihar Sharif"
             class="gallery-secondary-image"
           />
         </div>

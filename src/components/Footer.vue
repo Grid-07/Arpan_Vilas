@@ -3,7 +3,7 @@
     <div class="container">
       <div class="footer-content">
         <div class="footer-section">
-          <h3>ARPAN VILASH</h3>
+          <h3>BIMLA MANGAL GARDENSH</h3>
           <p>A HOME THAT YOU DESERVE</p>
           <br>
           <p>Experience luxury living in the heart of Ranchi with world-class amenities and premium construction quality.</p>

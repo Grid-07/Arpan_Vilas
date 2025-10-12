@@ -118,6 +118,7 @@
                     class="feature-tag" 
                     v-for="feature in project.features.slice(0, 3)" 
                     :key="feature"
+                    
                   >
                     {{ feature }}
                   </span>
@@ -154,7 +155,7 @@ export default {
         status: 'Under Construction',
         progress: 75,
         features: ['3BHK Apartments', 'Premium Amenities', 'Commercial Space', 'Green Landscaping'],
-        image: '/images/building-frontal-view.jpg'
+        image: '/Arpan_Vilas/images/building-frontal-view.jpg'
       },
       {
         id: 2,
@@ -166,7 +167,7 @@ export default {
         status: 'Under Construction',
         progress: 45,
         features: ['Luxury Apartments', 'Shopping Mall', 'Office Complex', 'Club House'],
-        image: '/images/building-overview.jpg'
+        image: '/Arpan_Vilas/images/building-overview.jpg'
       },
       {
         id: 3,
@@ -178,7 +179,7 @@ export default {
         status: 'Under Construction',
         progress: 60,
         features: ['2BHK & 3BHK', 'Swimming Pool', 'Gymnasium', 'Parking'],
-        image: '/images/courtyard-pool-view.jpg'
+        image: '/Arpan_Vilas/images/courtyard-pool-view.jpg'
       },
       {
         id: 4,
@@ -190,14 +191,14 @@ export default {
         status: 'Under Construction',
         progress: 35,
         features: ['Retail Shops', 'Food Court', 'Parking', 'Modern Design'],
-        image: '/images/building-facade-detail.jpg'
+        image: '/Arpan_Vilas/images/building-facade-detail.jpg'
       }
     ])
 
     const completedProjects = ref([
       {
         id: 5,
-        name: 'Arpan Vilas Phase 1',
+        name: 'BIMLA MANGAL GARDENS Phase 1',
         location: 'Bihar Sharif, Nalanda',
         type: 'Residential Complex',
         units: '84 Units',
@@ -205,7 +206,7 @@ export default {
         status: 'Completed',
         completionYear: '2022',
         features: ['3BHK Apartments', 'Club House', 'Swimming Pool', '24/7 Security'],
-        image: '/images/building-frontal-view.jpg'
+        image: '/Arpan_Vilas/images/building-frontal-view.jpg'
       },
       {
         id: 6,
@@ -217,7 +218,7 @@ export default {
         status: 'Completed',
         completionYear: '2021',
         features: ['Shopping Mall', 'Multiplex', 'Food Court', 'Parking'],
-        image: '/images/building-overview.jpg'
+        image: '/Arpan_Vilas/images/building-overview.jpg'
       },
       {
         id: 7,
@@ -229,7 +230,7 @@ export default {
         status: 'Completed',
         completionYear: '2020',
         features: ['2BHK Apartments', 'Garden Area', 'Children Park', 'Power Backup'],
-        image: '/images/courtyard-passage.jpg'
+        image: '/Arpan_Vilas/images/courtyard-passage.jpg'
       },
       {
         id: 8,
@@ -241,7 +242,7 @@ export default {
         status: 'Completed',
         completionYear: '2019',
         features: ['Modern Offices', 'Conference Hall', 'Cafeteria', 'Parking'],
-        image: '/images/street-view.jpg'
+        image: '/Arpan_Vilas/images/street-view.jpg'
       }
     ])
 

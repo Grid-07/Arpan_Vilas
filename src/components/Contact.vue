@@ -3,7 +3,7 @@
     <div class="container">
       <div class="section-header">
         <h2 class="section-title">Get In Touch</h2>
-        <p class="section-subtitle">Schedule your site visit today and experience the ARPAN VILASH difference</p>
+        <p class="section-subtitle">Schedule your site visit today and experience the BIMLA MANGAL GARDENSH difference</p>
       </div>
 
       <div class="contact-grid">

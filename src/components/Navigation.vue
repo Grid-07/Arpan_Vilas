@@ -20,16 +20,16 @@
 
       <!-- Navigation links -->
       <div class="nav-links" :class="{ 'nav-links--open': isMobileMenuOpen }">
-        <a href="#hero" class="nav-link" @click="handleNavClick('hero')">Home</a>
-        <a href="#overview" class="nav-link" @click="handleNavClick('overview')">About</a>
-        <a href="#projects" class="nav-link" @click="handleNavClick('projects')">Projects</a>
-        <a href="#floor-plans" class="nav-link" @click="handleNavClick('floor-plans')">Floor Plans</a>
-        <a href="#contact" class="nav-link" @click="handleNavClick('contact')">Contact Us</a>
+        <router-link to="/" class="nav-link" @click="handleNavClick">Home</router-link>
+        <router-link to="/about" class="nav-link" @click="handleNavClick">About</router-link>
+        <router-link to="/projects" class="nav-link" @click="handleNavClick">Projects</router-link>
+        <router-link to="/floor-plans" class="nav-link" @click="handleNavClick">Floor Plans</router-link>
+        <router-link to="/contact" class="nav-link" @click="handleNavClick">Contact Us</router-link>
       </div>
 
-      <button class="btn btn--primary btn--3d nav-cta" @click="handleNavClick('contact')">
+      <router-link to="/contact" class="btn btn--primary btn--3d nav-cta" @click="handleNavClick">
         Book Visits
-      </button>
+      </router-link>
     </div>
   </nav>
 </template>
@@ -63,8 +63,7 @@ export default {
       document.body.style.overflow = isMobileMenuOpen.value ? 'hidden' : ''
     }
 
-    const handleNavClick = (sectionId) => {
-      scrollToSection(sectionId)
+    const handleNavClick = () => {
       isMobileMenuOpen.value = false
       document.body.style.overflow = ''
     }
@@ -153,6 +152,10 @@ export default {
 }
 
 .nav-link:hover {
+  color: #ff4444;
+}
+
+.nav-link.router-link-active {
   color: #ff4444;
 }
 

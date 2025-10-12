@@ -8,7 +8,7 @@
       <div class="hero-main-image">
         <img 
           src="/images/building-frontal-view.jpg" 
-          alt="Arpan Vilas - Premium 3BHK apartments frontal view showcasing modern architecture and luxury living in Bihar Sharif"
+          alt="BIMLA MANGAL GARDENS - Premium 3BHK apartments frontal view showcasing modern architecture and luxury living in Bihar Sharif"
           class="hero-image"
         />
         <div class="image-overlay"></div>
@@ -16,12 +16,12 @@
       <div class="hero-secondary-images">
         <img 
           src="/images/building-overview.jpg" 
-          alt="Arpan Vilas building overview showing twin towers with premium amenities and open spaces"
+          alt="BIMLA MANGAL GARDENS building overview showing twin towers with premium amenities and open spaces"
           class="secondary-image"
         />
         <img 
           src="/images/courtyard-pool-view.jpg" 
-          alt="Luxury swimming pool area in Arpan Vilas courtyard with modern amenities"
+          alt="Luxury swimming pool area in BIMLA MANGAL GARDENS courtyard with modern amenities"
           class="secondary-image"
         />
       </div>
