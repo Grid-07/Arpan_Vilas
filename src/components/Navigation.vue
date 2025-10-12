@@ -22,7 +22,8 @@
       <div class="nav-links" :class="{ 'nav-links--open': isMobileMenuOpen }">
         <a href="#hero" class="nav-link" @click="handleNavClick('hero')">Home</a>
         <a href="#overview" class="nav-link" @click="handleNavClick('overview')">About</a>
-        <a href="#floor-plans" class="nav-link" @click="handleNavClick('floor-plans')">Projects</a>
+        <a href="#projects" class="nav-link" @click="handleNavClick('projects')">Projects</a>
+        <a href="#floor-plans" class="nav-link" @click="handleNavClick('floor-plans')">Floor Plans</a>
         <a href="#contact" class="nav-link" @click="handleNavClick('contact')">Contact Us</a>
       </div>
 

@@ -3,6 +3,7 @@
     <Navigation />
     <Hero />
     <Overview />
+    <Projects />
     <FloorPlans />
     <Amenities />
     <WhereWeWork />
@@ -15,6 +16,7 @@
 import Navigation from './components/Navigation.vue'
 import Hero from './components/Hero.vue'
 import Overview from './components/Overview.vue'
+import Projects from './components/Projects.vue'
 import FloorPlans from './components/FloorPlans.vue'
 import Amenities from './components/Amenities.vue'
 import WhereWeWork from './components/WhereWeWork.vue'
@@ -27,6 +29,7 @@ export default {
     Navigation,
     Hero,
     Overview,
+    Projects,
     FloorPlans,
     Amenities,
     WhereWeWork,

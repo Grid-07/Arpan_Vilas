@@ -1127,6 +1127,10 @@ textarea.form-control {
     font-size: 20px;
   }
   
+  .logo-image {
+    height: 45px;
+  }
+  
   /* Mobile menu button */
   .mobile-menu-btn {
     display: flex;
@@ -1273,8 +1277,10 @@ textarea.form-control {
   }
   
   .hero-stats {
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    justify-content: center;
     gap: 24px;
+    flex-wrap: wrap;
     max-width: 100%;
   }
   
